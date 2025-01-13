@@ -20,10 +20,6 @@ public class TestGreeter {
     greeter = new Greeter();
   }
 
-  @Test
-  public void Intentionally_Failed() {
-    assertTrue(true);
-  }  
   
   @Test
   public void greetShouldIncludeTheOneBeingGreeted() {
